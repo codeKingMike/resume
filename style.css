@@ -29,3 +29,12 @@ img {
  label {
     padding: 0 15px 0 0;
 } 
+/* MY EXPIERENCE AREA || EXPIERENCE AREA || EXPIERENCE INFORMATION */
+#expierence {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.jobTitle {
+    display: flex;
+    justify-content: space-between;
+}
