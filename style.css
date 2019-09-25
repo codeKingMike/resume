@@ -3,3 +3,29 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.7;
+}
+/* HEADING AREA || MAIN SECTION || TOP SECTION || ABOUT ME */
+section #main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid #333;
+    padding: 35px;
+    grid-gap: 25px;
+}
+
+img { 
+    height: 200px;
+    border-radius: 50%;
+}
+
+.contact-row {
+    display: flex;
+}
+
+ label {
+    padding: 0 15px 0 0;
+} 
