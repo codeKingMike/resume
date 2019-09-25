@@ -54,6 +54,16 @@ img {
     font-weight: 600;
     /* border-left: 1px solid rgb(173, 167, 167); */
 }
-.icons i {
+/* MY HOBBIES AREA || HOBBIES AREA || HOBBIES INFORMATION */
+#hobbies {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 35px;
+    
+    border-bottom: 1px solid #333;
+}
+#hobbies .icons{
+    display: flex;
+    justify-content: space-around;
     
 }
